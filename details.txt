@@ -1,0 +1,38 @@
+Assignment:
+Problem statement: Build a Covid vaccine checker scout program, that upon beginning, inputs a State and district from the user and age group (18-45 or 45+) from the user. It checks the Cowin APIs every minute and alerts the user when a vaccine is available by changing the color of the logs and making a sound.
+
+Further information:
+
+*Optional* Setup a typescript project. A short tutorial: https://www.digitalocean.com/community/tutorials/setting-up-a-node-project-with-typescript
+
+Use Node version 14.
+
+Use the following APIs for the information:
+State Codes: https://www.cowin.gov.in/api/v2/admin/location/states
+District Codes: https://www.cowin.gov.in/api/v2/admin/location/districts/9
+
+Vaccine: https://www.cowin.gov.in/api/v2/appointment/sessions/public/calendarByDistrict?district_id=143&date=05-05-2021
+
+One of these to get input from the user:
+https://www.npmjs.com/package/inquirer
+https://www.npmjs.com/package/prompts
+
+For HTTP requests: https://www.npmjs.com/package/axios
+
+One of these to make alert sounds: 
+https://www.npmjs.com/package/beeper
+https://www.npmjs.com/package/beepbeep
+
+One of these to change the color of the logs:
+https://www.npmjs.com/package/chalk
+https://www.npmjs.com/package/colors
+
+To submit the assignment, please reply back with the .zip file of your project or a google drive link. Do not include the node modules folder in the zip. Please do not upload the project on Github or any other public repository for the next 10 days. 
+
+Form:
+State
+District
+Age group: "18-45" && "45+"
+
+npm start // special
+npm run start-server // not special

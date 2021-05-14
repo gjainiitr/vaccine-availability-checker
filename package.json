@@ -1,0 +1,22 @@
+{
+  "name": "akudo",
+  "version": "1.0.0",
+  "description": "A vaccination Availability checker",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gopal Jain",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "beeper": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
